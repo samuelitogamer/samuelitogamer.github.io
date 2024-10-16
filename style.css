@@ -1,0 +1,70 @@
+header{
+    background-color:#056C00;
+    min-height:100px;
+    width:auto;
+}
+
+.rigthsidebar{
+    background-color: #056C00;
+    height: 400px;
+    width: 100px;
+    float: right;
+}
+.leftsidebar{
+    background-color: #056C00;
+    height: 400px;
+    width: 100px;
+}
+body{
+    font-family: arial, helvetica;
+    background-image: url(./tablero\ \ principal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    style="color:#E5FEE9"
+    width: 250px;
+    contailer:center;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #ffffff;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    color:#E5FEE9
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: rgb(49, 224, 49)
+
+}
+
+.container {
+    display: flex;
+    align-items: left;
+    
+    
+}
+   h1{
+    color:rgb(223, 223, 223)
+}
+
+.contenedor{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+

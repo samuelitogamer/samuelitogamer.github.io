@@ -1,0 +1,60 @@
+body{
+    background-image: url(./tablero\ \ de\ trastornos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@font-face{
+    font-family: titulo;
+    src: url(Heyam.ttf);
+   }
+
+   h1{
+    font-family: titulo;
+    color:rgb(240, 240, 240)
+   }
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #f4f5f3;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: block;
+
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: rgb(49, 224, 49)
+
+}
+
+.boton.png{
+padding: 10px 20px;
+border: none;
+background-image: url(./boton.png);
+cursor: pointer;
+transition: transform 0.2s;
+ }
+
+.boton:hover{
+    transform: scale(1.1);
+
+}
+
+.boton:focus{
+    outline: none;
+    box-shadow: 0 0 5px 2px blue;
+}

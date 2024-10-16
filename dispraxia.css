@@ -1,0 +1,46 @@
+body{
+ background: url(tablero\ \ de\ dispraxia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   height: 100%;
+}
+
+@font-face{
+    font-family: titulo;
+    src: url(Heyam.ttf);
+   }
+
+   h1{
+    font-family: titulo;
+    color:rgb(0, 0, 0)
+   }
+.contenedor{ 
+    max-width: 1000px;
+	max-height: 100%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: large;
+    padding: 1rem;
+
+}
+
+button{
+    background-color: rgb(0, 47, 255);
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+   }
+
+   section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgb(88, 175, 255);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
